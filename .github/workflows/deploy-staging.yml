@@ -32,6 +32,7 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
+          retantion-days: 1
 
   Build-Docker-Image:
     runs-on: ubuntu-latest
